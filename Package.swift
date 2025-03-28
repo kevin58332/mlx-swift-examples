@@ -9,7 +9,6 @@ let package = Package(
     products: [
         .library(
             name: "MLXLLM",
-            type: .static,
             targets: ["MLXLLM"]),
         .library(
             name: "MLXVLM",
